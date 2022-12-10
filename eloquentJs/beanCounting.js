@@ -1,26 +1,26 @@
 /*
  *  name: bean Counting
- *  author: calvinmas@spacemilk
+ * author: https://github.com/IAmCalvinMas
  */
 
-
-function countBs(str){
-
+function countBs(str) {
   let bs = 0;
 
-  str.split('').forEach( item => { if(item == 'B') bs += 1; });
+  str.split("").forEach((item) => {
+    if (item == "B") bs += 1;
+  });
   return bs;
 }
 
-console.log(countBs('maleselBBBa'));
+console.log(countBs("maleselBBBa"));
 
-function countChar(str, chr){
-
+function countChar(str, chr) {
   let bs = 0;
 
-  str.split('').forEach( item => { if(item == chr) bs += 1; });
+  str.split("").forEach((item) => {
+    if (item == chr) bs += 1;
+  });
   return bs;
 }
 
-
-console.log(countChar('malesela', 'a'));
+console.log(countChar("malesela", "a"));

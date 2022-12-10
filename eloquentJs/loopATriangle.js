@@ -1,11 +1,7 @@
-/* author : Malesela
- * company : Spacemilk
- * date : 2021-08-26 23:33
- *
+/*
+ * author: https://github.com/IAmCalvinMas
  */
 
-for(let x = '#'; x.length != 8; x += '#'){
-
+for (let x = "#"; x.length != 8; x += "#") {
   console.log(x);
 }
-
